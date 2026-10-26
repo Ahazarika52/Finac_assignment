@@ -158,9 +158,4 @@ The report is generated in the `playwright-report/` directory by default.
 - **Report not opening:** Run `npx playwright show-report`.
 - **ReqRes GET failure:** Check whether the requested ID exists in the API's supported dataset; demo CRUD endpoints may not persist created users.
 
-## 10. Notes
 
-- Keep test assertions aligned with the actual application or API response.
-- Avoid hardcoding real passwords or API secrets in source control.
-- Use meaningful test names and keep UI and API tests separate.
-- Review the HTML report after execution to identify failed assertions and troubleshoot issues.
